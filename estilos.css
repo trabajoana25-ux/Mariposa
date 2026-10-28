@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
 }
@@ -7,32 +8,41 @@ body {
     margin: 0;
     padding: 20px;
     text-align: center;
+    background-color: #9400D3;
+    color: white;
 }
 
-.contenedor {
-    width: 50%;
-    max-width: 300px;
-    margin: auto;
+h1 {
+    color: #5dff54;
+}
+
+.table {
+    width: 100%;
     background-color: #9400D3;
-    border: 2px solid #5dff54; 
+    border: 2px solid #008000;
+ 
+    border-spacing: 10px;
 }
 
 .boton {
     display: inline-block;
-    padding: 16px;
-    margin: 15px 0;
+    padding: 10px;
+    margin: 10px 0;
     border: 2px solid #5dff54;
     border-radius: 10px;
     text-decoration: none;
     font-size: 16px;
+    color: #5dff54;
 }
 
-.table {
-    background-color: #9400D3;
-    border: 2px solid #5dff54;
+.boton:hover {
+    background-color: #5dff54;
+    color: #9400D3;
 }
 
 img {
     max-width: 100%;
     height: auto;
+    border: 2px solid #5dff54;
+    border-radius: 10px;
 }
